@@ -1,15 +1,12 @@
-import { Canvas } from '@react-three/fiber'
+import HomeScreen from './HomeScreen';
 import './scss/main.scss';
+import './scss/app.scss';
 
-// 
 function App() {
   return (
-    <div id="canvas-container">
-      <Canvas>
-        <mesh />
-      </Canvas>
-    </div>
+    <HomeScreen />
   )
 }
+
 
 export default App;
